@@ -14,9 +14,9 @@ To activate the virtual environment on Windows, type the following command in th
 ## MacOS or Linux
 
 To activate the virtual environment on MacOS or Linux, use the following command in the terminal:
-
+```shell
 source KeywordSearcher/bin/activate
-
+```
 
 To install necessary packages, in the `COS_783_Project` directory, run the following command:
 

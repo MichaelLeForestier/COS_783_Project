@@ -22,6 +22,14 @@ To install necessary packages, in the `COS_783_Project` directory, run the follo
 
 ```shell
 pip install -r requirements.txt
+```
+
+Additionally run the following command: 
+```shell
+python -m spacy download en_core_web_sm
+```
+When running project for first time make sure to uncomment line 3 in textPreprocessor.py so that it downloads wordnet. Then
+comment it out as you won't need to download it again on future runs
 
 Please follow these instructions to set up and configure your project environment.
 

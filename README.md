@@ -7,9 +7,9 @@ To activate the virtual environment, ensure you are in the `COS_783_Project` dir
 ## Windows
 
 To activate the virtual environment on Windows, type the following command in the command prompt:
-
+```shell
 .\KeywordSearcher\Scripts\activate
-
+```
 
 ## MacOS or Linux
 

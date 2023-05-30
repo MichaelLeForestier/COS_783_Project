@@ -1,3 +1,13 @@
+# BEFORE USING run 
+        # pip install nltk in terminal
+# Then run 
+        # import nltk
+        # nltk.download('wordnet')
+
+# Then comment it out and use 
+
+
+
 from nltk.corpus import wordnet
 
 def get_synonyms(word):
@@ -14,5 +24,4 @@ if __name__ == "__main__":
     word = input("Enter a word: ")
     synonyms = get_synonyms(word)
     print("Synonyms:", synonyms)
-# import nltk
-# nltk.download('wordnet')
+
